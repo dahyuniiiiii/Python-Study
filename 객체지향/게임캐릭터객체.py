@@ -2,7 +2,7 @@
 # 속성: 캐릭터의 능력치, 경험치 등
 # 메서드: 캐릭터를 움직이는 방법, 이동, 공격 
 
-class Character(object):
+class Character(object): #object라는 부모 클래스에서 상속
 
     def __init__(self, name):
         self.name = name
